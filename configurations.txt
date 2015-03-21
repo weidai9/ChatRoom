@@ -1,0 +1,3 @@
+login_interval 30
+block_time 60000
+time_out 60000
