@@ -53,13 +53,13 @@ The ChatClient will start a ChatClientReceiver, a ClientHeartBeat. The ChatClien
 There is a makefile in the directory. To compile the project, use “make” command. 
 
 (1) To run the server:
-$ make
-$ java ChatServer 6789
+$ make  
+$ java ChatServer 6789  
 The above commands will compile the server and start the server using port number 6789
 
 (2) To run the client:
-$ make
-$ java ChatClient 0.0.0.0 6789
+$ make  
+$ java ChatClient 0.0.0.0 6789  
 The above commands will compile the client and start the client by connecting to 0.0.0.0 with port number 6789.
 
 The port number of the client message receiver is automatically assigned. 
@@ -68,8 +68,8 @@ The port number of the client message receiver is automatically assigned.
 4. Sample Commands 
 
 (1) Login:
-$ make
-$ java ChatClient 0.0.0.0 6789
+$ make  
+$ java ChatClient 0.0.0.0 6789  
 > Username: Dave
 > Password: 123456
 Welcome to simple chat server!
